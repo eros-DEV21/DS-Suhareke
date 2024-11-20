@@ -12,3 +12,7 @@
         background: url(./download.png);
         
     }
+    .border-solid{
+     border: 2px solid green;
+
+    }
