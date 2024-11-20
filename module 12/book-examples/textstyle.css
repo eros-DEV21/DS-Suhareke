@@ -1,0 +1,9 @@
+.text-style{
+color: green;
+letter-spacing: 10px;
+word-spacing: 15px;
+text-decoration: underline;
+text-align: center;
+font-size: 60px;
+font-family: 'Courier New', Courier, monospace;
+}
