@@ -1,0 +1,21 @@
+.module13{
+    list-style-type: square;
+}
+
+.module13 li{
+    border-bottom: 1px solid red;
+}
+
+.module13{
+    list-style-image:  url(./download.png);
+    list-style-position: inside;
+}
+td, th{
+    border: 1px solid;
+    padding: 20px;
+    border-collapse: collapse;
+}
+table tr:nth-child(odd){
+background-color: blue;
+color:white
+}
