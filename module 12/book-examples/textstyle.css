@@ -16,3 +16,17 @@ font-family: 'Courier New', Courier, monospace;
 .body-text{
 font-family:'body-text';
 }
+ 
+a{
+color: pink;
+}
+
+
+a:link{
+color: pink;
+}
+
+
+a:hover{
+    color:green
+}

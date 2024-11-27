@@ -1,0 +1,14 @@
+h1{
+   text-underline-position: below;color: aqua; 
+   text-decoration: overline;
+}
+
+h2{
+   text-underline-position: above; color: blanchedalmond;
+   text-decoration: underline;
+}
+
+h3{
+    text-underline-position: below;color: blueviolet;
+    text-decoration: underline;
+}
