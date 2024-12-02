@@ -15,7 +15,13 @@ td, th{
     padding: 20px;
     border-collapse: collapse;
 }
-table tr:nth-child(odd){
+table tbody > tr:nth-child(odd){
 background-color: blue;
 color:white
+}
+div{
+    width: 200px;
+    height: 200px;
+    background-color: grey;
+    overflow: auto;
 }
