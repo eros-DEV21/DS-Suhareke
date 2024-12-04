@@ -1,0 +1,38 @@
+article > p :first-child{
+background-color: solid green;
+color: azure;
+
+}
+article > div > p{
+border-color: blueviolet;
+color: blueviolet;
+border: 20px solid;
+}
+article + p{
+border-color: cadetblue;
+color: blueviolet;
+border: 30px solid;
+}
+article + p + p{
+border-color: blue;
+border: 50px solid;
+}
+ 
+input:focus{
+    border: 10px solid green;
+    background-color: green; 
+ 
+}
+
+p:first-of-type:valid{
+    background-color: purple;
+    border:10px solid purple
+}
+
+.shkolla::selection{
+    border: 10px solid green;
+    background-color: green;
+}
+p{
+opacity: 0.1;
+}

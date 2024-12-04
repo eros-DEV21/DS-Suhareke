@@ -1,0 +1,5 @@
+tr{
+    border: 10px solid green;
+    column-gap: normal;
+    border-collapse: collapse;
+}
