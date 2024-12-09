@@ -1,5 +1,4 @@
-tr{
-    border: 10px solid green;
-    column-gap: normal;
-    border-collapse: collapse;
+input{
+    border: 5px solid blue;
+    background-color: crimson;
 }
