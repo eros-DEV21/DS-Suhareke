@@ -1,12 +1,6 @@
-li{
-    color: aqua;
-    word-spacing: 10px;
-    font-size: large;
-    border: 30px solid salmon
-}
-ul{
-    word-spacing: 20xp;
-    color: bisque;
-    border: 40px solid black;
-
+nav ul{
+    border: 10px solid red;
+    padding: 20px solid;
+    background-color: aqua;
+   color: green;
 }
