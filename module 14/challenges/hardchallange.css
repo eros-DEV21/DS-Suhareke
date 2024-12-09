@@ -1,0 +1,5 @@
+div{ 
+    border: 5px solid green;
+    box-shadow: 0.5px inset blue;
+    opacity: 0.3;
+}
