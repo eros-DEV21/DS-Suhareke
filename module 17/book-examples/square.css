@@ -12,6 +12,7 @@
     width: 100px;
     float: right;
     border-image: url(./smart.jpg) 25 25 round;
+    box-shadow: 2px 2px 4px 5px black;
 }
 
 .div3{
