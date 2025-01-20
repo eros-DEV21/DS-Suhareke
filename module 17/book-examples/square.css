@@ -1,0 +1,21 @@
+.div1{
+    border: 1px solid black;
+   height: 100px;
+   width: 100px;
+   float: right;
+   border-radius: 40%;
+}
+
+.div2{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    float: right;
+    border-image: url(./smart.jpg) 25 25 round;
+}
+
+.div3{
+    background:
+    url(./smart.jpg)
+     top center / 200px 200px no-repeat fixed padding-box content-box red;
+}
