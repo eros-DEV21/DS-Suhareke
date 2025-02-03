@@ -1,19 +1,17 @@
-
-@keyframes pulse{
-    0%{width: 60px;
-      height: 60px;
-    }   
-    50%{
-       width: 100px;
-       height: 100px;
-       background-color: blue;
-    }
-    100%{
-       width: 50px;
-       height: 50px;
-       background-color: transparent;
-    }
+.flex-container{
+   background-color: blue;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   height: 300px;
+   align-items: flex-end;
 }
-
-div{
-    transform: rotate(90deg);}
+.flex-container >div{
+   padding: 20px;
+   margin: 15px;
+   color: white;
+   border: 1px  solid white;
+   
+   
+}
