@@ -1,2 +1,3 @@
-console.log("text in console")
-document.write('<h1>Heading<h1>')
+var favoritebooks=['eros','invincible','harrypoter'];
+
+console.log(favoritebooks[1]);
