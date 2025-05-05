@@ -34,6 +34,16 @@ document.getElementById("result6").innerHTML=text.match(regex);*/
 var regex=/[abc]/g;
 document.getElementById(result7).innerHTML=text.match(regex);*/
 
-var text="Digjital School is in top 10 best schools in the world!";
+/*var text="Digjital School is in top 10 best schools in the world!";
 var regex=/[0-9]/g;
-document.getElementById("result8").innerHTML=text.match(regex);
+document.getElementById("result8").innerHTML=text.match(regex);*/
+
+/*var text = "My school is the best school in the world!";
+var regex=/(top|best|school)/g;
+document.getElementById("result9").innerHTML=text.match(regex);*/
+
+var text="100 percent!";
+var regex=/\d/g;
+document.getElementById("result10").innerHTML=text.match(regex);
+
+
