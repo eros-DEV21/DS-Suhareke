@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+
+    <title>Document</title>
+    <style>
+        .error{
+            color: red;
+            margin-left:10px;
+        }
+    </style>
+</head>
+<body>
+    <from id="nameForm">
+        <label for="username">Name:</label>
+        <input type="text" id="username" name="username"/>
+
+        <span id="errorMsg" class="error" ></span>
+        <br><br>
+        <button type="submit">submit</button>
+
+
+    </from>
+    
+<script>
+    const from =document.getElementById('nameForm');
+    const usernameInput=document.getElementById('usernameInput');
+    const errorMsg=document.getElementById('errorMsg');
+
+     from.addEventListener('submit' ,function(event)   {
+event.preventDefault(); //Parandalon submit te formularit
+const name=usernameInput.value;
+const onlyLetters=/^[A-Za-z]+$/;
+
+if(!onlyLetters.test(name)){
+    errorMsg.textContent = "Pleas use letters only";
+
+}else{
+    errorMsg.textContent="";
+    //Shto kodin
+    alert("Form submitted successfully");
+}
+
+
+});
+</script>
+
+
+</body>
+</html>

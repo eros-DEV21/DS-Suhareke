@@ -1,0 +1,14 @@
+.dropdown{
+    background-color: red;
+    display: none;
+    padding: 5px 10px;
+    border: 4px solid;
+    -webkit-box-shadow: 80px 80px 5px 1px rgba(221,13,NaN,1);
+    -moz-box-shadow: 80px 80px 5px 1px rgba(221,13,NaN,1);
+    box-shadow: 80px 80px 5px 1px rgba(221,13,NaN,1);
+    ;
+
+}
+.list1 a:hover + .dropdown{
+display: inline-block;
+}

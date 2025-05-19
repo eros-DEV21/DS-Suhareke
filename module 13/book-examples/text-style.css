@@ -1,0 +1,27 @@
+.module13{
+    list-style-type: square;
+}
+
+.module13 ol{
+border-bottom: 16px solid red;
+}
+
+.module13 li{
+    list-style-image:  url(./download.png);
+    list-style-position: inside;
+}
+td,th{
+border: 2px solid;
+padding: 20px;
+border-collapse: collapse;
+}
+table tbody tr:nth-child(odd){
+    background-color:#a9ffea;
+    color: red;
+}
+div{
+    width: 200px;
+    height: 200px;
+    background-color: cyan;
+    overflow:scroll;
+}

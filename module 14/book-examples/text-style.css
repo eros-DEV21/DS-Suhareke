@@ -1,0 +1,35 @@
+article p:first-child {
+border: 20px solid red;
+background-color: color-mix(in lch longer hue, color percentage, color percentage);
+}
+article>div{
+    border: 30px solid green;
+    background-color: darkturquoise;
+}
+article+p{
+    border: 40px solid yellow;
+    background-color: darkorange;
+}
+article~p{
+    border: 50px solid purple;
+    background-color: pink;
+}
+input:focus{
+    border: 70px solid cyan ;
+    background-color: cyan;
+    
+}
+p:first-of-type{
+    border: 100px solid rgb(0, 255, 255) ;
+    background-color: rgb(0, 0, 0);
+    
+}
+.p::first-letter{
+    border: 40px solid green;
+}
+.pp::selection{
+    border: 60px solid yellow;
+}
+p{
+    opacity: 0.1;
+}

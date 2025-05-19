@@ -1,0 +1,34 @@
+:root{
+    --primary-color:red;
+    --secondary-color:blue;
+    --spacing-inside-menu-items:20px;
+}
+.dropdown-content{
+    background-color: var(--primary-color);
+    display: none;
+    padding: 5px 10px;
+    border: 4px solid;
+    -webkit-box-shadow: 80px 80px 5px 1px rgba(221,13,NaN,1);
+    -moz-box-shadow: 80px 80px 5px 1px rgba(221,13,NaN,1);
+    box-shadow: 80px 80px 5px 1px rgba(221,13,NaN,1);
+    ;
+    left: 0px;
+    top: var(--spacing-inside-menu-items);
+}
+.dropdown a:hover + .dropdown-content{
+display: inline-block;
+}
+a{text-decoration: none;}
+.tooltip{
+visibility: relative;
+position: inline-block;
+}
+.tooltip-text{
+    visibility: hidden;
+    position: absolute;
+    border: 5px solid red;
+    border-radius: 10px;
+}
+.tooltip:hover .tooltip-text{
+    visibility: visible;
+}

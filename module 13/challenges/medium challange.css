@@ -1,0 +1,9 @@
+td,tr{
+border: 4px solid;
+padding: 30px;
+border-collapse: collapse;
+}
+table tbody tr:nth-child(odd){
+    background-color:#a9ffea;
+    color: red;
+}

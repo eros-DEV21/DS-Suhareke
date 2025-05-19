@@ -1,0 +1,24 @@
+.static{
+    border: 1px solid red;
+    width: 200px;
+    height: 200px;
+    position: static;
+    padding: 10px;
+}
+.relativ{
+    border: 5px solid green;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    padding: 10px;
+    left: 500px;
+    top: 50px;
+}
+.absolute{
+    width: 200px;
+    height: 200px;
+    border: 20px solid red;
+    position: absolute;
+    left: 600px;
+    right: 50px;
+}

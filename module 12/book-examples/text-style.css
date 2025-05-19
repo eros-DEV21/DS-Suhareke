@@ -1,0 +1,26 @@
+ .text-style{
+    color: red;
+    letter-spacing: 15px;
+word-spacing: 20px;
+text-decoration: solid;
+text-align: justify;
+font-size: 40px;
+font-family: 'roboto';
+}
+@font-face {
+    font-family: 'roboto';
+    src: url('./EduAUVICWANTPre-Regular.ttf');
+}
+a{
+color: yellow;
+text-underline-position: below;
+}
+a:link{
+    color: brown;
+}
+  a:visited{
+    color: darkorchid;
+} 
+a:hover{color: rgb(6, 179, 0);} 
+a:active{ color: lavenderblush;}
+

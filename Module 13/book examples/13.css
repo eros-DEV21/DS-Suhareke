@@ -1,0 +1,48 @@
+.module13 {
+        list-style-type:square;
+        color:blue;
+        letter-spacing:20px;
+        word-spacing:10px;
+        text-decoration:wavy;
+        text-align:left;
+        font-size:50px;
+        font-family: "body-text";
+        list-style-image:url(https://www.google.com/imgres?q=barca&imgurl=https%3A%2F%2Fyt3.googleusercontent.com%2FQn2VnmXGN22O_PbTTojSIWufYA0FbCs2T9CyCin72WuYXZNEP2pLze9erKbqJeCRr5wK7FR9M2g%3Ds900-c-k-c0x00ffffff-no-rj&imgrefurl=https%3A%2F%2Fwww.youtube.com%2Fchannel%2FUC14UlmYlSNiQCBe9Eookf_A&docid=1wVT0dfDCJ5aiM&tbnid=nGUSfww00YpSpM&vet=12ahUKEwi27KT7i_2JAxXPRfEDHRIvL-kQM3oECGcQAA..i&w=900&h=900&hcb=2&ved=2ahUKEwi27KT7i_2JAxXPRfEDHRIvL-kQM3oECGcQAA);
+
+        list-style-position:inside;
+    }
+td,th{
+    border:1px solid;
+    border-color:blue;
+}
+table tr:nth-child(odd){
+    background-color: black;
+    color: white;
+    color: black;
+}
+table tr:nth-child(even){
+    background-color: blue;
+    color: white;
+}
+.blin tr:nth-child(even){
+    background-color: green;
+    color: white;
+}
+.blin tbody>tr:nth-child(odd){
+    list-style-type:square;
+    color:white;
+    letter-spacing:10px;
+    word-spacing:5px;
+    text-decoration:wavy;
+    text-align:left;
+    font-size:10px;
+    font-family: "body-text";
+    background-color: black;
+}
+div{
+    width:10%;
+    height: 200px;
+    background-color: blueviolet;
+    overflow:scroll; 
+    overflow:scroll; 
+}

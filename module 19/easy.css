@@ -1,0 +1,15 @@
+.containers{
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 300px;
+    align-items: flex-end;
+}
+.containers > div{
+    padding: 30px;
+    margin: 20px;
+    color: green;
+    border: 10px solid yellow;
+}

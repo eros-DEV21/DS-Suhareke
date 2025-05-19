@@ -1,4 +1,5 @@
 .static{
+<<<<<<< HEAD
     border: 1px solid #000;
     width: 300px;
     height: 300px;
@@ -8,6 +9,16 @@
 
 .relativ{
     border: 1px solid #000;
+=======
+    border: 1px solid red;
+    width: 200px;
+    height: 200px;
+    position: static;
+    padding: 10px;
+}
+.relativ{
+    border: 5px solid green;
+>>>>>>> 46b956fc79c5ce9cdc406ea04519fd0bffdbb389
     width: 300px;
     height: 300px;
     position: relative;
@@ -15,3 +26,43 @@
     left: 500px;
     top: 50px;
 }
+<<<<<<< HEAD
+=======
+.absolute{
+    width: 200px;
+    height: 200px;
+    border: 20px solid red;
+    position: absolute;
+    left: 600px;
+    right: 50px;
+}
+.sticky{
+    width: 300px;
+    height: 300px;
+    border: 50px solid rgb(0, 255, 234);
+    position: sticky;
+    left: 400px;
+    right: 100px;
+}
+.fixed{
+    width: 400px;
+    height: 400px;
+    border: 60px solid rgb(0, 136, 79);
+    position: fixed;
+    left: 300px;
+    right: 150px;
+    top: 50px;
+}
+.inner{
+    width: 10px;
+    height: 10px;
+    border: 10px solid black;
+}
+.outer{
+    width: 150;
+    height: 150;
+    border: 10px solid orange;
+    align-items: center;
+    justify-items: center;
+}
+>>>>>>> 46b956fc79c5ce9cdc406ea04519fd0bffdbb389

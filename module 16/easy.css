@@ -1,0 +1,16 @@
+.gallery-item img{
+    width: 300px;
+    height: auto;
+    }
+    .gallery-item{ 
+      float: left;
+      border: 6px solid red;
+      margin: 10px;
+    }
+    .item-desc{
+      padding: 15px;
+    }
+    .gallery-item:hover{
+transform: scale(1.04);
+transition: all ease-in-out 0.2s;
+    }

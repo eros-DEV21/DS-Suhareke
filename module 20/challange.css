@@ -1,0 +1,27 @@
+body{
+    margin: 1px;
+    font-family:  "Titillium Web, sans-serif"
+}
+#section-1{
+    background-color: #87509c;
+}
+
+.primary-button{
+    background-color: #eb7d4b;
+    font-size: 18px;
+    width: 300px;
+    height: 70px;
+    color: white;
+}
+.main-heading{
+    text-align: center;
+}
+nav ul li{
+    display:inline-block;
+    padding: 10px 15px;
+
+}
+nav ul li a{
+text-decoration: none;
+color: white;
+}

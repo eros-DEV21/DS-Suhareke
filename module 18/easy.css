@@ -1,0 +1,26 @@
+div{
+    transform: translate(800px,500px);
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: white;
+    background-color: red;
+   padding: 10px;
+}
+
+
+.gent{
+    transition: all 2s ease-in-out;
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+
+
+}
+.gent:hover{
+    transform: translate(300px);
+    width: 400px;
+    height: 400px;
+    background-color:yellow
+    ;
+}

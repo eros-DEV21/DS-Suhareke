@@ -1,0 +1,14 @@
+ul{
+    word-spacing: 10px;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: burlywood;
+    border: 20px solid red
+}
+ol{
+    word-spacing:20px ;
+    font-size: medium;
+    font-family: serif;
+    background-color: cyan;
+    border: 30px solid green;
+}

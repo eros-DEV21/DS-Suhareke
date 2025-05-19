@@ -1,29 +1,54 @@
+<<<<<<< HEAD
 body{
     margin: 0;
 }
+=======
+>>>>>>> 46b956fc79c5ce9cdc406ea04519fd0bffdbb389
 ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
+<<<<<<< HEAD
     background-color: whitesmoke;
+=======
+    background-color: #333;
+>>>>>>> 46b956fc79c5ce9cdc406ea04519fd0bffdbb389
     overflow: hidden;
     display: inline-block;
     height: 100%;
     width: 300px;
+<<<<<<< HEAD
 
 }
 ul li {
     font-size: 50px;
+=======
+}
+ul li{
+font-size: 50px;
+}
+body{
+   margin: 0;
+   
+
+>>>>>>> 46b956fc79c5ce9cdc406ea04519fd0bffdbb389
 }
 ul li a{
     display: block;
     padding: 15px;
     text-decoration: none;
     color: white;
+<<<<<<< HEAD
 }
 ul li a:hover:not(.active){
     background-color:black;
     color: white;
+=======
+
+}
+ul li :hover:not(.active){
+    background-color: black;
+>>>>>>> 46b956fc79c5ce9cdc406ea04519fd0bffdbb389
 }
 .active{
     background-color: green;

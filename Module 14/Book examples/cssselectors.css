@@ -1,0 +1,64 @@
+ article >p :first-child{
+   color: blueviolet;
+    text-align: right;
+}
+article >div>p{
+    list-style-type:square;
+    color:blue;
+    letter-spacing:20px;
+    word-spacing:10px;
+    text-decoration:wavy;
+    text-align:left;
+    font-size:50px;
+    font-family: "body-text";
+}
+article +p{ list-style-type:square;
+    color:black;
+    letter-spacing:200px;
+    word-spacing:90px;
+    text-decoration:wavy;
+    text-align:left;
+    font-size:50px;
+    font-family: "body-text";}
+    article +p+p{
+        list-style-type:square;
+        color:brown;
+        letter-spacing:20px;
+        word-spacing:10px;
+        text-decoration:wavy;
+        text-align:left;
+        font-size:50px;
+        font-family: "body-text";
+    }
+   
+    input:in-range{
+        border:1px green;
+        background-color:green ;
+    }
+    input:focus{
+        background-color: black;
+    }
+    input:out-of-range{
+        background-color: brown
+    
+    }
+    input:required{
+        background-color: blue;
+    }
+    p:first-of-type{
+        background-color: coral;
+       
+    }
+    p::first-letter{
+        color:crimson
+    }
+    p::first-line{
+        color:royalblue
+    }
+    p::after{content:url(download.jpg)}
+    p::before{content:url(download.jpg)
+    }
+    p::selection{
+        background-color: black;
+    }
+    p{opacity:0.1}

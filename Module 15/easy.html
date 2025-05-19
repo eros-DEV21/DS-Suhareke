@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+ <html>
+     <head> <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Positioning Example</title>
+           <style>
+            .static-div { 
+     position: static;
+      background-color: lightblue;
+       padding: 20px;
+     margin-bottom: 10px; 
+    } 
+    .relative-div { 
+     position: relative; 
+    top: 20px;
+     left: 20px;
+       background-color: lightgreen; 
+   padding: 20px;
+    margin-bottom: 10px;
+        }
+     .absolute-div {
+           position: absolute;
+           top: 100px;
+            left: 100px; 
+        background-color: lightcoral;
+      padding: 20px;
+    }
+      </style>
+  </head>
+  <body>
+ <h1>CSS Positioning Example</h1>
+    <div class="static-div">This is a static positioned div.</div> 
+    <div class="relative-div">This is a relative positioned div.</div> 
+  <div class="absolute-div">This is an absolute positioned div.</div>
+  </body>
+   </html>

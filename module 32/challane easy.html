@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+    <title>v</title>
+
+    <style>
+        .error{
+            color: red;
+            font-size: 12px;
+            display: none;
+        }
+
+    </style>
+
+
+</head>
+<body>
+<form id="nameForm">
+<label for="name">Shkruani emrin:</label>
+<input type="text" id="name" name="name" required>
+<span id="error" class="error">Lejohen vetem shkrojna</span>
+<button type="submit">Dergo</button>
+</form>
+
+<script>
+var nameInput=document.getElementById('name');
+var errorMessage=document.getElementById('error');
+var form=document.getElementById('nameForm');
+
+form.addEventListener('submit')
+
+
+
+</script>
+
+
+
+
+</body>
+</html>

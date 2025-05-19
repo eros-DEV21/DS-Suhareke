@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opacity and Decoration Example</title>
+    <style>
+        /* Basic body styling */
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+
+        /* Styling the container div */
+        .decorative-div {
+            position: relative;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent background */
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            opacity: 0.9; /* Div opacity */
+            transition: opacity 0.3s ease;
+        }
+
+        /* Adding a border with pseudo-element */
+        .decorative-div::before {
+            content: '';
+            position: absolute;
+            top: -10px;
+            left: -10px;
+            right: -10px;
+            bottom: -10px;
+            border: 2px dashed #333;
+            border-radius: 15px;
+            opacity: 0.6; /* Border opacity */
+        }
+
+        /* Hover effect to change opacity */
+        .decorative-div:hover {
+            opacity: 1; /* Full opacity on hover */
+        }
+
+        /* Adding a text inside the div */
+        .decorative-div p {
+            opacity: 0.8; /* Text opacity */
+            transition: opacity 0.3s ease;
+        }
+
+        /* Hover effect for text */
+        .decorative-div:hover p {
+            opacity: 1; /* Full opacity on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="decorative-div">
+        <p>This is a sample text inside a div. The opacity effect makes it look more attractive!</p>
+    </div>
+</body>
+</html>

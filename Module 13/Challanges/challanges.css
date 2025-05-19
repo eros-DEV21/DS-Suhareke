@@ -1,0 +1,12 @@
+.db{
+    list-style-type:square;
+    color:rgb(26, 26, 61);
+    letter-spacing:20px;
+    word-spacing:10px;
+    text-decoration:wavy;
+    text-align:left;
+    font-size:50px;
+    font-family: "body-text";
+    border:1px solid;
+    border-color:green;
+}
