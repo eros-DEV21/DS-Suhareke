@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+
+header {
+    background: #7b4b9e;
+    color: white;
+    padding: 20px 0;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: auto;
+    padding: 10px;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.hero {
+    padding: 50px 0;
+}
+.hero h1 {
+    font-size: 26px;
+    max-width: 600px;
+    margin: auto;
+}
+.hero button {
+    background: orange;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    box-shadow: black 2px 2px 5px; 
+}
+
+
+.services {
+    background: #27ae60;
+    color: white;
+    padding: 50px 0;
+}
+.service-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+.service {
+    text-align: center;
+    font-size: 20px;
+}
+.service i {
+    font-size: 30px;
+}
+
+
+.team {
+    background: #ecf0f1;
+    padding: 50px 0;
+}
+.team-members {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+.member img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+
+.skills {
+    padding: 50px 0;
+}
+.skill-bars {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.skill {
+    background: #ddd;
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+
+.portfolio {
+    background: #f7d794;
+    padding: 50px 0;
+}
+.portfolio-items {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.item {
+    background: white;
+    padding: 20px;
+    width: 200px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+.testimonials {
+    background: #ff6b81;
+    color: white;
+    padding: 50px 0;
+}
+.reviews {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.review {
+    background: white;
+    color: black;
+    padding: 20px;
+    border-radius: 5px;
+    width: 250px;
+}
+
+
+.contact {
+    background: #34495e;
+    color: white;
+    padding: 50px 0;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 300px;
+    margin: auto;
+}
+input, textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+button {
+    background: #2980b9;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+
+footer {
+    background: #2c3e50;
+    color: white;
+    padding: 20px 0;
+}
