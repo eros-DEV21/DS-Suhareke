@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Resizable Div Example</title>
+  
+  <!-- jQuery -->
+  <script src="jquery-3.7.1.min.js"></script>
+  
+  <!-- jQuery UI -->
+  <link rel="stylesheet"  href="jquery-ui.css"/>
+  <script src="jquery-ui.js"></script>
+
+  <style>
+    #resizable-box {
+      width: 200px;
+      height: 150px;
+      border: 2px solid #007BFF;
+      background-color: #e7f1ff;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="resizable-box">
+    Drag my borders to resize me!
+  </div>
+
+  <script>
+    $(function() {
+      $("#resizable-box").resizable();
+    });
+  </script>
+
+</body>
+</html>
